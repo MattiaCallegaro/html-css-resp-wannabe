@@ -136,12 +136,36 @@ img {
 
 @media screen and (max-width: 480px){
     
+    .container{
+        width: 100%;
+        
+    }
     .row{
         display: flex;
         flex-direction: column;
         align-items: center;
-        
     }
+
+    .col{
+        width: 100%; !important
+    }
+
+    .steps{
+        margin: 0rem;
+    }
+
+    .lessons{
+        padding-bottom: 3rem
+    }
+
+    .why-us{
+        background-color: rgb(30, 27, 27);
+        margin: 0rem;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+
+    
 
 }
 
