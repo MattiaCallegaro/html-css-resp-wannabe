@@ -144,14 +144,19 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
+        
+        
     }
 
     .col{
-        width: 100%; !important
+        min-width: 100%; !important
+        
     }
 
     .steps{
         margin: 0rem;
+        
+        
     }
 
     .lessons{
@@ -165,7 +170,15 @@ img {
         padding-top: 3rem;
     }
 
-    
+    .why-us .col-left{
+        margin-bottom: 50px;
+    }
 
+    .steps .col img{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+ 
+    
 }
 
